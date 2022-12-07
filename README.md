@@ -1,2 +1,2 @@
 # TemporalPythonTesting
-Testing our TemporalPython
+Testing out Temporal Python SDK examples
