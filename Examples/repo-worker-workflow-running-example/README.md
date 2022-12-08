@@ -74,3 +74,21 @@ Copied code from "running" section linked above
 
 ## Run the code 
 `python worker.py`
+
+## other notes
+You get the same output to the console if: 
+
+in *client.py#l13*, you change:
+```python
+    return await handle.result()
+```
+to this: 
+```python
+        result = await handle.result()
+        print(f"Greeting: {result}")
+```
+
+And you change *worker.py#L20-21* to:
+```python
+    await create_greeting(client)
+```
