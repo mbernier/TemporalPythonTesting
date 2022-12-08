@@ -1,4 +1,3 @@
-import asyncio
 from temporalio.client import Client
 from greeting import GreetingWorkflow
 

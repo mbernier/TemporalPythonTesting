@@ -1,5 +1,4 @@
 import asyncio
-import logging
 from temporalio.client import Client
 from temporalio.worker import Worker
 # Import your own workflows and activities
